@@ -3,7 +3,13 @@ import React from 'react'
 const Header = () => {
     return (
         <div>
-            Header
+            <h1>KANTABAY</h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                </ul>
+            </nav>
         </div>
     )
 }
