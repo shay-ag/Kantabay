@@ -1,0 +1,15 @@
+header{
+    padding: 70px;
+    min-height: 20vh;
+}
+
+.custom-nav-item{
+    font-weight: 900;
+    font-size: 1rem;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}
+
+.custom-nav-item:hover{
+    color: white;
+}
