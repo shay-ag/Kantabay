@@ -2,7 +2,9 @@
     font-size: 3rem;
     color: white;
     text-shadow: 4px 4px 2px black;
-    margin: 0 0 6rem 0;
+}
+.main-title:hover{
+    box-shadow: 0 0 7rem 7rem rgba(0, 0, 0, 0.5);
 }
 
 .kanta{
@@ -10,7 +12,7 @@
 }
 
 Button {
-    margin: 1rem 0;
+    margin: 1rem 1rem 5rem 0;
 }
 
 .tag-line{
@@ -73,7 +75,9 @@ opacity: 0; }
     animation-fill-mode: backwards; }
 
 .img-home{
-    margin-top: 3rem;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+    width: 20rem;
     padding: 5px;
     border: 3px solid white;
     box-shadow: 0 0 7rem 7rem rgba(0, 0, 0, 0.5);
@@ -81,7 +85,9 @@ opacity: 0; }
 
 .img-home:hover{
     border: 3px solid red;
+    box-shadow: 0 0 10rem 10rem rgba(0, 0, 0, 0.5);
 }
+
 
 .hover01 {
 	-webkit-transform: scale(1);

@@ -7,6 +7,10 @@ footer {
     font-size: 1rem;
 }
 
+.topfooter:hover{
+    color: red;
+}
+
 i{
     padding: 1.5rem;
 }
