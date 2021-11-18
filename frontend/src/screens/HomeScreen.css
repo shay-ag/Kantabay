@@ -9,6 +9,10 @@
     color: red;
 }
 
+Button {
+    margin: 1rem 0;
+}
+
 .tag-line{
     margin-top: 6rem;
     font-size: 1.2rem;

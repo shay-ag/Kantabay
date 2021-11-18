@@ -19,10 +19,10 @@ const HomeScreen = () => {
             </Row>
             
             <Row>
-                <Col lg={2} md={3}>
+                <Col lg={2} md={12} sm={12}>
                     <Button variant="outline-light">Explore</Button>
                 </Col>
-                <Col lg={2} md={3}>
+                <Col lg={2} md={12} sm={12}>
                     <Button variant="outline-light">Book A Service</Button>
                 </Col>
             </Row>
