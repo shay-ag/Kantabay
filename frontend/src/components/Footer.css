@@ -1,0 +1,16 @@
+footer {
+    background-color: black;
+}
+
+.footer{
+    text-align: center;
+    font-size: 1rem;
+}
+
+i{
+    padding: 1.5rem;
+}
+
+i:hover{
+    color: red;
+}
