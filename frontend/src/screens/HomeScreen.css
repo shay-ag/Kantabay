@@ -1,0 +1,87 @@
+.main-title{
+    font-size: 3rem;
+    color: white;
+    text-shadow: 4px 4px 2px black;
+    margin: 0 0 6rem 0;
+}
+
+.kanta{
+    color: red;
+}
+
+.tag-line{
+    margin-top: 6rem;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.575);
+    text-shadow: 2px 2px black;
+}
+
+.nearby{
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+.btn:link, .btn:visited {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: .5rem 2rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all 0.2s;
+    position: relative; 
+}
+  
+.btn:hover {     
+    transform: translateY(-0.3rem);
+    box-shadow: 0 0.5rem 1rem rgb(0, 0, 0);
+}
+
+.btn:active {
+transform: translateY(-0.1rem);
+box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
+
+.btn-white {
+background-color: #fff;
+color: #777; }
+
+.btn::after {
+content: "";
+display: inline-block;
+height: 100%;
+width: 100%;
+border-radius: 10rem;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+transition: all 0.4s; }
+
+.btn-white::after {
+background-color: #fff; }
+
+.btn:hover::after {
+transform: scaleX(1.4) scaleY(1.6);
+opacity: 0; }
+
+.btn-animated {
+    animation: moveInBottom 2s ease-out 0.75s;
+    animation-fill-mode: backwards; }
+
+.img-home{
+    margin-top: 3rem;
+    padding: 5px;
+    border: 3px solid red;
+    box-shadow: 0 0 7rem 7rem rgba(0, 0, 0, 0.5);
+}
+
+.hover01 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}

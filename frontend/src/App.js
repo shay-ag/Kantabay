@@ -5,13 +5,15 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+import HomeScreen from './screens/HomeScreen';
+
 const App = () => {
   return (
     <div>
       <Header />
       <main>
         <Container>
-          <h1>Welcome To KantaBay</h1>
+          <HomeScreen />
         </Container>
       </main>
       <Footer />
