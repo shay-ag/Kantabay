@@ -82,7 +82,7 @@ opacity: 0; }
 }
 
 .img-home:hover{
-    border: 1px solid red;
+    border: 2px solid red;
     border-radius: 5px;
     box-shadow: 0 0 10rem 10rem rgba(0, 0, 0, 0.5);
 }
