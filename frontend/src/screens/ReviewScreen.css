@@ -41,12 +41,15 @@
     text-shadow: 1px 1px black;
 }
 
-i:hover{
+.io:hover{
     color: white;
 }
 
 .end-btn{
     text-align: center;
-    border-radius: 20px;
     margin-bottom: -7rem;
+}
+
+.review-end-btn{
+    border-radius: 40px;
 }
