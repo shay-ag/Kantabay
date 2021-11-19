@@ -16,33 +16,33 @@ const ContactScreen = () => {
                                 <Row>
                                     <Col lg={12}>
                                     <Row>
-                                        <Col>
-                                            <i class="fas fa-map-marker-alt"></i>
+                                        <Col lg={3}>
+                                            <i className="fas fa-map-marker-alt contact-icon"></i>
                                         </Col>
-                                        <Col> 
-                                            <h3>Location:</h3>
+                                        <Col className="pad"> 
+                                            <h3 className="venue">Location:</h3>
                                             <p>Atal Bihari Vajpayee Indian Institute of Information Technology & Management, Gwalior, MP, 474001</p>
                                         </Col>
                                     </Row>
                                     </Col>
                                     <Col lg={12}>
                                     <Row>
-                                        <Col>
-                                            <i class="fas fa-envelope-open"></i>
+                                        <Col lg={3}>
+                                            <i className="fas fa-envelope-open contact-icon"></i>
                                         </Col>
-                                        <Col>    
-                                            <h3>Email:</h3>
+                                        <Col className="pad">    
+                                            <h3 className="venue">Email:</h3>
                                             <p>kantabay@gmail.com</p>
                                         </Col>
                                     </Row>
                                     </Col>
                                     <Col lg={12}>
                                     <Row>
-                                        <Col>
-                                        <i class="fas fa-phone-alt"></i>
+                                        <Col lg={3}>
+                                        <i className="fas fa-phone-square contact-icon"></i>
                                         </Col>
-                                        <Col>
-                                        <h3>Call:</h3>
+                                        <Col className="pad">
+                                        <h3 className="venue">Call:</h3>
                                         <p>+91 7225836257</p>
                                         </Col>
                                     </Row>
@@ -50,37 +50,37 @@ const ContactScreen = () => {
                                 </Row>
                             </Col>
                             <Col>
-                                <Row>
+                                <Row className="form-class">
                                     <Form>
                                     <Row>
                                     <Col lg={6}>
                                         <Form.Group>
-                                        <Form.Label>Your Name</Form.Label>
-                                        <Form.Control type="text" placeholder="Enter Your Name Here" />
+                                        <Form.Label className="form-label">Your Name</Form.Label>
+                                        <Form.Control type="text" placeholder="Enter Your Name Here" className="form-content"/>
                                         </Form.Group>
                                     </Col>
                                     <Col lg={6}>
                                         <Form.Group>
-                                        <Form.Label>Your Email</Form.Label>
-                                        <Form.Control type="email" placeholder="name@example.com" />
+                                        <Form.Label className="form-label">Your Email</Form.Label>
+                                        <Form.Control type="email" placeholder="name@example.com" className="form-content"/>
                                         </Form.Group>
                                     </Col>
                                     </Row>
                                     <Col lg={12}>
                                         <Form.Group>
-                                        <Form.Label>Subject</Form.Label>
-                                        <Form.Control type="text" placeholder="Enter Subject"/>
+                                        <Form.Label className="form-label">Subject</Form.Label>
+                                        <Form.Control type="text" placeholder="Enter Subject" className="form-content"/>
                                         </Form.Group>
                                     </Col>
                                     <Col lg={12}>
                                         <Form.Group>
-                                        <Form.Label>Message</Form.Label>
-                                        <Form.Control as="textarea" rows={3} placeholder="Enter Your Message"/>
+                                        <Form.Label className="form-label">Message</Form.Label>
+                                        <Form.Control as="textarea" rows={2} placeholder="Enter Your Message" className="form-content"/>
                                         </Form.Group>
                                     </Col>
                                     <Row>
                                     <Col className="end-btn">
-                                    <Button variant="outline-light" className="contact-end-btn">Explore</Button>                                    
+                                    <Button variant="outline-light" className="contact-end-btn">Send Message</Button>                                    
                                     </Col>
                                     </Row>
                                     </Form>

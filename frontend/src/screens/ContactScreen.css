@@ -1,4 +1,63 @@
 .contact-end-btn{
     margin: 2rem;
+    margin-bottom: 7rem;
     border-radius: 40px;
+
+}
+
+.contact-end-btn:hover{
+    color: white;
+    background-color: green;
+}
+
+.contact-icon{
+    color: red;
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+
+.contact-icon:hover{
+    color: white;
+}
+
+.pad{
+    padding: 2rem 0 0 0;
+}
+
+.venue{
+    color: white;
+    text-shadow: 3px 3px 0px black;
+}
+
+.venue:hover{
+    color: red;
+    text-shadow: 3px 3px 0px black;
+}
+
+p{
+    text-shadow: 2px 2px black;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+p:hover{
+    color: white;
+}
+
+.form-class{
+    margin-top: 1rem;
+}
+
+.form-label{
+    padding-top: 1rem;
+    font-weight: 900;
+    color: red;
+    text-shadow: 2px 2px 0px black;
+}
+/* 
+.form-content{
+    background-color: gray;
+} */
+
+.form-control::placeholder{
+    color: black;
 }
