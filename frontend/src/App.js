@@ -11,6 +11,8 @@ import AboutScreen from './screens/AboutScreen';
 import ReviewScreen from './screens/ReviewScreen';
 import ContactScreen from './screens/ContactScreen';
 import JoinScreen from './screens/JoinScreen';
+import LoginScreen from './screens/LoginScreen';
+import RegisterScreen from './screens/RegisterScreen';
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
           <Route path='/reviews' component={ReviewScreen} exact />
           <Route path='/contact' component={ContactScreen} exact />
           <Route path='/joinus' component={JoinScreen} exact />
+          <Route path='/signin' component={LoginScreen} />
+          <Route path='/register' component={RegisterScreen} />
         </Container>
       </main>
       <Footer />

@@ -46,7 +46,7 @@ const Header = () => {
                 <LinkContainer to="/joinus">
                 <Nav.Link ><div className="custom-nav-item">Join Us</div></Nav.Link>
                 </LinkContainer>
-                <LinkContainer to="/signup">
+                <LinkContainer to="/register">
                 <Nav.Link ><div className="custom-nav-item">Sign In</div></Nav.Link>
                 </LinkContainer>
                 </Stack>
