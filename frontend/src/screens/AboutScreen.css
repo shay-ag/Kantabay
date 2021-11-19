@@ -1,0 +1,57 @@
+
+
+.main-container{
+    margin-top: -2rem;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 2px black;
+}
+
+span{
+    color: red;
+    text-shadow: 4px 4px 2px black;
+}
+.content-box{
+    min-height: 60vh;
+    margin: -2.4rem -7.7rem 0 -10rem;
+    padding: 5rem 10rem;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.h3-title{
+    padding: 3rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.desc{
+    text-shadow: 2px 2px black;
+    color: rgba(255, 255, 255, 0.575);
+    text-align: justify;
+    padding: 2rem;
+}
+
+.desc:hover{
+    color: white;
+}
+
+.h2-title{
+    padding: 3rem 0rem 0rem 0rem;
+    text-align: center;
+    color: white;
+}
+
+.desc-end{
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: rgba(255, 255, 255, 0.575);
+    padding: 2rem;
+}
+
+.desc-end:hover{
+    color: white;
+}
