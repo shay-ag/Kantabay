@@ -10,6 +10,7 @@ import HomeScreen from './screens/HomeScreen';
 import AboutScreen from './screens/AboutScreen';
 import ReviewScreen from './screens/ReviewScreen';
 import ContactScreen from './screens/ContactScreen';
+import JoinScreen from './screens/JoinScreen';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/about' component={AboutScreen} exact />
           <Route path='/reviews' component={ReviewScreen} exact />
           <Route path='/contact' component={ContactScreen} exact />
+          <Route path='/joinus' component={JoinScreen} exact />
         </Container>
       </main>
       <Footer />
