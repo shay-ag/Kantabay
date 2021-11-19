@@ -76,16 +76,16 @@ opacity: 0; }
     margin-top: -3rem;
     margin-bottom: 3rem;
     width: 20rem;
-    padding: 2px;
-    border: 3px solid red;
+    border: 1px solid black;
+    border-radius: 5px;
     box-shadow: 2rem 2rem 2rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 .img-home:hover{
-    border: 3px solid white;
+    border: 1px solid red;
+    border-radius: 5px;
     box-shadow: 0 0 10rem 10rem rgba(0, 0, 0, 0.5);
 }
-
 
 .hover01 {
 	-webkit-transform: scale(1);
@@ -100,4 +100,9 @@ opacity: 0; }
 
 .home-end-btn{
     border-radius: 40px;
+}
+
+.two:hover{
+    background-color: black;
+    color: white;
 }
