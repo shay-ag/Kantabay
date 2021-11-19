@@ -61,3 +61,8 @@ p:hover{
 .form-control::placeholder{
     color: black;
 }
+
+.outer-div{
+    padding-left: 1rem;
+    border-left: 1px solid red;
+}

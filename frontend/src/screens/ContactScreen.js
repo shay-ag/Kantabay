@@ -50,7 +50,7 @@ const ContactScreen = () => {
                                 </Row>
                             </Col>
                             <Col>
-                                <Row className="form-class">
+                                <Row className="form-class outer-div">
                                     <Form>
                                     <Row>
                                     <Col lg={6}>
