@@ -80,7 +80,7 @@ const ContactScreen = () => {
                                     </Col>
                                     <Row>
                                     <Col className="end-btn">
-                                    <Button variant="outline-light" className="contact-end-btn">Send Message</Button>                                    
+                                    <Button variant="outline-light" className="contact-end-btn letter-spacing">Send Message</Button>                                    
                                     </Col>
                                     </Row>
                                     </Form>

@@ -36,7 +36,7 @@ const ReviewScreen = () => {
                 </Col>
                 <Row>
                     <Col className="end-btn">
-                    <Button variant="outline-light" className="review-end-btn">Wanna Add A Review ?<br />Click Me</Button>
+                    <Button variant="outline-light" className="review-end-btn letter-spacing">Wanna Add A Review ?<br />Click Me</Button>
                     </Col>
                 </Row>
             </Row>

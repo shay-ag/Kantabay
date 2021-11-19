@@ -67,7 +67,7 @@ const RegisterScreen = () => {
                     </Row>
                     <Row>
                         <Col className="end-btn">
-                        <Button variant="outline-light" className="contact-end-btn">Sign Up</Button>                                    
+                        <Button variant="outline-light" className="contact-end-btn letter-spacing">Sign Up</Button>                                    
                         </Col>
                     </Row>
                 </Form>

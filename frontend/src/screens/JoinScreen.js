@@ -104,7 +104,7 @@ const JoinScreen = () => {
             </Row>
             <Row>
                 <Col className="end-btn">
-                    <Button variant="outline-light" className="contact-end-btn new-btn">Register as Maid</Button>  
+                    <Button variant="outline-light" className="contact-end-btn letter-spacing">Register as Maid</Button>  
                 </Col>
             </Row>
             </Row>
