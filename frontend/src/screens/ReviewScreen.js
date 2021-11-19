@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 
 import './ReviewScreen.css';
 
@@ -7,38 +7,39 @@ const ReviewScreen = () => {
     return (
         <Container className="main-container">
             <Row>
-                <h1 className="title">About <span>Kanta</span>Bay<span>...</span></h1>
+                <h1 className="title">Reviews on <span>Kanta</span>Bay<span>...</span></h1>
             </Row>
-            <Row className="content-box">
-                <Col lg={6} md={4} sm={12}>
-                    <h3 className="h3-title">The <span>Importance</span> of Housekeeping</h3>
-                    <p className="desc">
-                    Nobody likes a messy home. In fact, multiple studies have determined that a messy living environment can drastically increase levels of stress and anxiety. On the other hand, cleaning up these messy environments can lower these stress and anxiety levels. Whether there is an important upcoming occasion, or you just want to have a tidy living space, making sure to clean it is very important. Whether it’s for a last-minute board meeting or a dinner-party for which you’re hosting many guests, let us help you get your space cleaned up.
-                    </p>
+            <Row className="content-box2">
+                <Row>
+                    <p className="header-text">Hear what our existing customers have to say from their experience with our services. <br />
+                    We take pride in carefully listening to all of the feedback from our customers.</p>
+                </Row>
+                <Col lg={3} md={6} sm={12} className="review-div">
+                    <p className="num"><i class="fas fa-quote-right"></i></p>
+                    <p className="review">“I can't believe that i really got a cleaner within an hour. Will definitely use again.”</p>
+                    <p className="reviwer-name">- Service tater</p>
                 </Col>
-                <Col lg={6} md={4} sm={12}>
-                    <h3 className="h3-title">Fitting it Into Your <span>Busy</span> Schedule</h3>
-                    <p className="desc">Having a full time job, having children to take care of, being a full time student, or regardless of what is filling up your schedule, cleaning is the last thing that you are probably worrying about. Today, everything is on demand. Transportation can be called on the phone, shopping can be done on the phone, even taxes can be filed on the phone. With the utilization of modern day technology, we at MaidsApp have created a program that allows you to call one of our meticulous maids to clean up your space and leave you a clean home, with just a few simple taps on your smartphone!
-                    </p>
+                <Col lg={3} md={6} sm={12} className="review-div">
+                    <p className="num"><i class="fas fa-quote-right"></i></p>
+                    <p className="review">“The on demand maidsapp service is awesome. All our property managers use this services. It makes our management service more efficient during vacancies. No more need to make cleaning services appointments ahead of time. Thank you maidsapp.”</p>
+                    <p className="reviwer-name">- Pearl Apartments</p>
                 </Col>
-                <Col lg={6} md={4} sm={12}>
-                    <h3 className="h3-title">Con<span>ven</span>ience</h3>
-                    <p className="desc">
-                    Here at MaidsApp, we understand the importance of maintaining a clean home, and we also sympathize with those who have busy schedules that prevent them from getting any cleaning done. With just a few simple steps to follow, customers can now request a maid to come and clean their home, from the comfort of wherever they are. All of our maids have a great deal of experience in residential properties as well as office spaces and commercial locations. Whether it’s for a last-minute board meeting or a dinner-party for which you’re hosting many guests, let us help you get your space cleaned up. 
-                    </p>
+                <Col lg={3} md={6} sm={12} className="review-div">
+                    <p className="num"><i class="fas fa-quote-right"></i></p>
+                    <p className="review">“Awesome app. Within 20 minutes someone was at my house cleaning. Also the cleaner did a great job. Good job Maidsapp.”</p>
+                    <p className="reviwer-name">- JudgeApp24*7</p>
                 </Col>
-                <Col lg={6} md={4} sm={12}>
-                    <h3 className="h3-title">Profe<span>ssion</span>alism</h3>
-                    <p className="desc">We understand allowing someone you aren’t familiar with into your home can be a bit of a worry for some people. Therefore, to give our customers peace-of-mind, we complete an in-depth security and background clearance on all of our maids. We constantly analyze and monitor how our maids perform their services, the feedback we get from our customers about our maids, and the feedback the maids give to us, in order to provide the best possible service that one could ever think of.</p>
+                <Col lg={3} md={6} sm={12} className="review-div">
+                    <p className="num"><i class="fas fa-quote-right"></i></p>
+                    <p className="review">“Have used another app in the past and the service was terrible each and everyt time i tried... then i found MaidsApp and was blown away at the quality!!! My house has never been cleaner! And they arrived within two hours of booking.”</p>
+                    <p className="reviwer-name">- Bow Workers</p>
                 </Col>
-                <Row className="end-row">
-                    <h2 className="h2-title">Get <span>Started</span> Today <span>??</span></h2>
-                    <p className="desc-end">
-                        Booking a service has never been that easy before. Visit our Sign Up Section and create your account now.
-                    </p>
+                <Row>
+                    <Col className="end-btn">
+                    <Button variant="outline-light">Wanna Add A Review ?<br />Click Me</Button>
+                    </Col>
                 </Row>
             </Row>
-            
             
         </Container>
     )

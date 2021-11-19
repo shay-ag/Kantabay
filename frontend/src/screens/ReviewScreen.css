@@ -1,0 +1,52 @@
+.content-box2{
+    min-height: 70vh;
+    margin: -2.4rem -7.7rem 0 -10rem;
+    padding: 5rem 10rem;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
+.header-text{
+    text-shadow: 2px 2px black;
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+}
+
+.header-text:hover{
+    color: white;
+}
+
+.review{
+    padding: 10px;
+    text-shadow: 2px 2px black;
+    color: rgba(255, 255, 255, 0.575);
+    text-align: justify;
+}
+
+.review:hover{
+    color: white;
+}
+
+.reviwer-name{
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+.num {
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 3rem;
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+i:hover{
+    color: white;
+}
+
+.end-btn{
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: -7rem;
+}
