@@ -100,7 +100,7 @@ const JoinScreen = () => {
                 </Row>
             </Form>
             <Row>
-                <div className="end">By registration, your agree to our terms & condition.</div>
+                <div className="end">By registration, you agree to our terms & condition.</div>
             </Row>
             <Row>
                 <Col className="end-btn">
