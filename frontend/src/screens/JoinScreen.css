@@ -1,0 +1,30 @@
+.end{
+    margin: 2rem 0;
+    color: red;
+    text-shadow: 1px 1px 0px black;
+}
+
+.upper-div{
+    margin: 3rem 0;
+}
+
+.new-btn{
+    letter-spacing: 2px;
+}
+
+.submit-info{
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.title-div{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+
+.inner-div{
+    text-align: justify;
+    padding: 3rem 5rem;
+}

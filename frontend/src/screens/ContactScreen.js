@@ -56,26 +56,26 @@ const ContactScreen = () => {
                                     <Col lg={6}>
                                         <Form.Group>
                                         <Form.Label className="form-label">Your Name</Form.Label>
-                                        <Form.Control type="text" placeholder="Enter Your Name Here" className="form-content"/>
+                                        <Form.Control type="text" placeholder="Enter Your Name Here" className="form-content" required/>
                                         </Form.Group>
                                     </Col>
                                     <Col lg={6}>
                                         <Form.Group>
                                         <Form.Label className="form-label">Your Email</Form.Label>
-                                        <Form.Control type="email" placeholder="name@example.com" className="form-content"/>
+                                        <Form.Control type="email" placeholder="name@example.com" className="form-content" required/>
                                         </Form.Group>
                                     </Col>
                                     </Row>
                                     <Col lg={12}>
                                         <Form.Group>
                                         <Form.Label className="form-label">Subject</Form.Label>
-                                        <Form.Control type="text" placeholder="Enter Subject" className="form-content"/>
+                                        <Form.Control type="text" placeholder="Enter Subject" className="form-content" required/>
                                         </Form.Group>
                                     </Col>
                                     <Col lg={12}>
                                         <Form.Group>
                                         <Form.Label className="form-label">Message</Form.Label>
-                                        <Form.Control as="textarea" rows={2} placeholder="Enter Your Message" className="form-content"/>
+                                        <Form.Control as="textarea" rows={2} placeholder="Enter Your Message" className="form-content" required/>
                                         </Form.Group>
                                     </Col>
                                     <Row>
