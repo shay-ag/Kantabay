@@ -28,6 +28,22 @@ const RegisterScreen = () => {
                     <Row>
                         <Col>
                             <Form.Group>
+                                <Form.Label>Contact Number:</Form.Label>
+                                <Form.Control type="text" placeholder="Enter Your Contact Number Here" required/>
+                            </Form.Group>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Form.Group>
+                                <Form.Label>Address:</Form.Label>
+                                <Form.Control type="text" placeholder="Enter Your Complete Address Here" required/>
+                            </Form.Group>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <Form.Group>
                                 <Form.Label>Your Email:</Form.Label>
                                 <Form.Control type="email" placeholder="Enter Your Email Here" required/>
                             </Form.Group>
