@@ -1,0 +1,22 @@
+.blog-title{
+    color: red;
+}
+
+.blog-icon{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.blog-content{
+    margin-top: -1rem;
+    padding: 2rem;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.blog-div{
+    padding: 1rem;
+    border-left: 3px solid red;
+    background-color: black ;
+}

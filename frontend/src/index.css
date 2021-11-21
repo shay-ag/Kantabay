@@ -1,6 +1,6 @@
 
 body {
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(4px);
   background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./assets/images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
