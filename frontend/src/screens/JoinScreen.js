@@ -90,7 +90,7 @@ const JoinScreen = () => {
                             <Form.Label>Specialized in:</Form.Label>
                             <Form.Control type="text" placeholder="Enter Your Specialization Field" required/>
                         </Form.Group>
-                    </Col>
+                  </Col>
                     <Col>
                         <Form.Group>
                             <Form.Label>Other details:</Form.Label>
@@ -98,15 +98,15 @@ const JoinScreen = () => {
                         </Form.Group>
                     </Col>
                 </Row>
+                <Row>
+                <div className="end"><Form.Check />By registration, you agree to our terms & condition.</div>
+                </Row>
+                <Row>
+                    <Col className="end-btn">
+                        <Button variant="outline-light" className="contact-end-btn letter-spacing">Register as Maid</Button>  
+                    </Col>
+                </Row>
             </Form>
-            <Row>
-                <div className="end">By registration, you agree to our terms & condition.</div>
-            </Row>
-            <Row>
-                <Col className="end-btn">
-                    <Button variant="outline-light" className="contact-end-btn letter-spacing">Register as Maid</Button>  
-                </Col>
-            </Row>
             </Row>
         </Container>
     )
