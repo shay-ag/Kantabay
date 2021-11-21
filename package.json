@@ -1,0 +1,21 @@
+{
+  "name": "kantabay",
+  "version": "1.0.0",
+  "description": "maid booking and management web application",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shay-ag/Kantabay.git"
+  },
+  "author": "Shashwat Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shay-ag/Kantabay/issues"
+  },
+  "homepage": "https://github.com/shay-ag/Kantabay#readme"
+}
