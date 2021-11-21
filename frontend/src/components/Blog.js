@@ -12,9 +12,17 @@ const Blog = ( {blog} ) => {
             <Card.Body className='card-body'>
                 <a href={`/blog/${blog._id}`}>
                     <Card.Title as='div'>
-                        <strong className="card-title">{blog.name}</strong>
+                        <strong className="card-title">{blog.title}</strong>
                     </Card.Title>
                 </a>
+                <Card.Text as='div' className="card-text">
+                    <div className='my-3'>
+                        <span>Author:</span> {blog.author}
+                    </div>
+                    <div>
+                        <span>Published on:</span><br /> {blog.date}
+                    </div>
+                </Card.Text>
             </Card.Body>
         </Card>
     )
