@@ -23,9 +23,12 @@
 
 .maid-icon{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
     padding: 0.5rem 1rem;
+}
+.maid-icon:hover{
+    color: rgb(0, 252, 0);
 }
 
 .text-align-center{
@@ -39,4 +42,9 @@
     font-weight: 900;
     color: red;
     text-shadow: 1px 1px 1px rgb(88, 13, 13);
+}
+
+.book-btn:hover{
+    color: white;
+    background-color: rgb(0, 180, 0);
 }

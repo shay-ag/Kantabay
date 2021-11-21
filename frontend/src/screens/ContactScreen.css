@@ -53,10 +53,6 @@ p:hover{
     color: red;
     text-shadow: 2px 2px 0px black;
 }
-/* 
-.form-content{
-    background-color: gray;
-} */
 
 .form-control::placeholder{
     color: black;

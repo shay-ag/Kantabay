@@ -40,6 +40,11 @@ const MaidInfoScreen = ( {match} ) => {
                     <div className="maid-info-field">Expected Salary:</div> <div className="maid-info">{maid.expected_salary}</div><br />
                     <div className="maid-info-field">Available:</div> <div className="maid-info">{maid.available ? 'Yes' : 'No' }</div><br />
                     <div className="maid-info-field">Rating:</div><div className="maid-info"><Rating value={maid.rating} /></div><br />
+                    <br />
+                    <Button variant="outline-light" className="home-end-btn book-btn letter-spacing">Book A Service</Button>
+                    <Link to='/maids'>
+                    <Button variant="outline-light" className="home-end-btn one letter-spacing">Go Back</Button>
+                    </Link>
                 </Col>
             </Row>
         </Row>
