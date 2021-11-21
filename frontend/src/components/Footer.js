@@ -18,13 +18,13 @@ const Footer = () => {
                     <Row>
                         <div className="text-center">
                             <span>Shashwat Agrawal:</span> 
-                            <Link to="https://github.com/shay-ag">
+                            <Link to={{ pathname: "https://github.com/shay-ag" }} target="_blank">
                                 <i className="fab fa-github social-media-icon"></i>
                             </Link>
-                            <Link to="https://www.linkedin.com/in/shashwat-agrawal-b6984b192/">
+                            <Link to={{ pathname: "https://www.linkedin.com/in/shashwat-agrawal-b6984b192/"}} target="_blank">
                                 <i class="fab fa-linkedin social-media-icon"></i>
                             </Link>
-                            <Link to="https://www.instagram.com/shay_ag_/">
+                            <Link to={{ pathname: "https://www.instagram.com/shay_ag_/"}} target="_blank">
                                 <i class="fab fa-instagram social-media-icon"></i>
                             </Link>
                         </div>
