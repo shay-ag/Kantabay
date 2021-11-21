@@ -108,7 +108,7 @@ const maids = [
         gender: 'Female',
         experience: 'More than 5 Years',
         expected_salary: '10k/month',
-        rating: 5,
+        rating: 2.5,
         available: true
     },
     {
