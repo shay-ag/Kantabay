@@ -16,7 +16,7 @@ const Header = () => {
                     width="90"
                     height="90"
                     className="d-inline-block align-top logo"
-                    alt="KantaBay logo"
+                    alt="KantaBay"
                 />
                 </Navbar.Brand>
                 </LinkContainer>
