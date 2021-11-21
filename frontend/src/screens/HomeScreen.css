@@ -78,7 +78,7 @@ opacity: 0; }
     width: 20rem;
     border: 1px solid black;
     border-radius: 5px;
-    box-shadow: 2rem 2rem 2rem 2rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0rem 0rem 2rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 .img-home:hover{
