@@ -1,0 +1,42 @@
+.maid-info{
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+.maid-img{
+    text-align: center;
+}
+
+.maid-name{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: red;
+    text-shadow: 2px 2px 1px black;
+}
+
+.maid-name:hover{
+    color: white;
+}
+
+.maid-icon{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.maid-info-field{
+    margin: 0.5rem 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: red;
+    text-shadow: 1px 1px 1px rgb(88, 13, 13);
+}

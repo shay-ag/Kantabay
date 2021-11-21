@@ -5,8 +5,7 @@ import './Rating.css';
 
 const Rating = ( { value, color }) => {
     return <div className="rating">
-        <span>Rating:</span> <br />
-        <>
+        <span>
             <i style={{color: color}}
             className={ 
                 value >= 1 
@@ -15,8 +14,8 @@ const Rating = ( { value, color }) => {
                     ? 'fas fa-star-half-alt' 
                     : 'far fa-star'}>
             </i>
-        </>
-        <>
+        </span>
+        <span>
             <i style={{color: color}}
             className={ 
                 value >= 2 
@@ -25,8 +24,8 @@ const Rating = ( { value, color }) => {
                     ? 'fas fa-star-half-alt' 
                     : 'far fa-star'}>
             </i>
-        </>
-        <>
+        </span>
+        <span>
             <i style={{color: color}}
             className={ 
                 value >= 3 
@@ -35,8 +34,8 @@ const Rating = ( { value, color }) => {
                     ? 'fas fa-star-half-alt' 
                     : 'far fa-star'}>
             </i>
-        </>
-        <>
+        </span>
+        <span>
             <i style={{color: color}}
             className={ 
                 value >= 4 
@@ -45,8 +44,8 @@ const Rating = ( { value, color }) => {
                     ? 'fas fa-star-half-alt' 
                     : 'far fa-star'}>
             </i>
-        </>
-        <>
+        </span>
+        <span>
             <i style={{color: color}}
             className={ 
                 value >= 5 
@@ -55,7 +54,7 @@ const Rating = ( { value, color }) => {
                     ? 'fas fa-star-half-alt' 
                     : 'far fa-star'}>
             </i>
-        </>
+        </span>
     </div>
 }
 

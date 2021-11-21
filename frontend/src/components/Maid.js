@@ -28,6 +28,9 @@ const Maid = ( { maid } ) => {
                 </Card.Text>
 
                 <Card.Text as='div' className="card-text">
+                    <div>
+                        <span>Rating:</span> <br />
+                    </div>
                     <Rating value={maid.rating} />
                 </Card.Text>
 
