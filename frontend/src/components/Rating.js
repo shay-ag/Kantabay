@@ -5,7 +5,7 @@ import './Rating.css';
 
 const Rating = ( { value, color }) => {
     return <div className="rating">
-        Rating:
+        <span>Rating:</span> <br />
         <>
             <i style={{color: color}}
             className={ 
@@ -60,7 +60,7 @@ const Rating = ( { value, color }) => {
 }
 
 Rating.defaultProps = {
-    color: 'red'
+    color: '#FFD700'
 }
 
 Rating.propTypes = {

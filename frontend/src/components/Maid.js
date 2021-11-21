@@ -6,28 +6,28 @@ import Rating from './Rating';
 
 const Maid = ( { maid } ) => {
     return (
-        <Card className='my-3 mx-2 mb-5 p-1'>
+        <Card className='my-3 mx-2 mb-5'>
             <a href={`/maid/${maid._id}`}>
                 <Card.Img src={maid.image} variant='bottom' width="100" height="200"/>
             </a>
 
-            <Card.Body>
+            <Card.Body className="card-body">
                 <a href={`/maid/${maid._id}`}>
                     <Card.Title as='div'>
-                        <strong>{maid.name}</strong>
+                        <strong className="card-title">{maid.name}</strong>
                     </Card.Title>
                 </a>
 
-                <Card.Text as='div'>
+                <Card.Text as='div' className="card-text">
                     <div className='my-3'>
                         {maid.description}
                     </div>
                     <div>
-                        Experience: {maid.experience}
+                        <span>Experience:</span> <br />{maid.experience}
                     </div>
                 </Card.Text>
 
-                <Card.Text as='div'>
+                <Card.Text as='div' className="card-text">
                     <Rating value={maid.rating} />
                 </Card.Text>
 

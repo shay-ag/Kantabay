@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+}
+
+.card-body{
+    background-color: black;
+}
+
+.card-title{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.card-text{
+    margin-bottom: 1rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.575);
+}
