@@ -13,9 +13,11 @@ const BlogScreen = () => {
             </Row>
             <Row className="content-box">
                 {blogs.map( (blog) => {
-                    <Col sm={12} md={6} lg={4} xl={3}>
+                    return (
+                        <Col sm={12} md={6} lg={4} xl={3}>
                         <Blog blog={blog} />
                     </Col>
+                    )
                 })}
             </Row>
         </Container>
