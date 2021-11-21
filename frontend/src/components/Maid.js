@@ -2,6 +2,7 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 
 import './Maid.css';
+import Rating from './Rating';
 
 const Maid = ( { maid } ) => {
     return (
@@ -27,7 +28,7 @@ const Maid = ( { maid } ) => {
                 </Card.Text>
 
                 <Card.Text as='div'>
-                    Rating: {maid.rating}
+                    <Rating value={maid.rating} />
                 </Card.Text>
 
             </Card.Body>
