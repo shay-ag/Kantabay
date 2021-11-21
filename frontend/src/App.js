@@ -15,6 +15,7 @@ import LoginScreen from './screens/LoginScreen';
 import RegisterScreen from './screens/RegisterScreen';
 import BlogScreen from './screens/BlogScreen';
 import MaidScreen from './screens/MaidScreen';
+import MaidInfoScreen from './screens/MaidInfoScreen';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
           <Route path='/register' component={RegisterScreen} />
           <Route path='/blogs' component={BlogScreen} exact />
           <Route path='/maids' component={MaidScreen} exact />
+          <Route path='/maid/:maidid' component={MaidInfoScreen} />
         </Container>
       </main>
       <Footer />
