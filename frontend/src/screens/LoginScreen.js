@@ -11,14 +11,14 @@ const LoginScreen = () => {
         </Row>
         <Row className="content-box">
         <Form className="signup-form">
-            <Row className="justify-content-md-center">
+            /*<Row className="justify-content-md-center">
                 <Col xs={12} md={6}>
                     <Form.Group>
                         <Form.Label>Your Name:</Form.Label>
                         <Form.Control type="text" placeholder="Enter Your Full Name Here" required/>
                     </Form.Group>
                 </Col>
-            </Row>
+            </Row>*/
             <Row className="justify-content-md-center">
                 <Col xs={12} md={6}>
                     <Form.Group>
