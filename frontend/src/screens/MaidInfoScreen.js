@@ -1,18 +1,30 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image, Button} from 'react-bootstrap';
+import axios from 'axios';
 
 import Rating from '../components/Rating';
-import maids from '../maids';
+// import maids from '../maids';
 import './MaidInfoScreen.css';
 
 const MaidInfoScreen = ( {match} ) => {
 
-    const maid = maids.find( (maid) => {
-        return (
-            maid._id === match.params.maidid
-        )
-    } )
+    const [ maid, setMaid ] = useState({});
+
+    useEffect( () => {
+        const fetchMaid = async () => {
+            const { data } = await axios.get(`/api/maids/${match.params.maidid}`);
+
+            setMaid(data);
+        }
+        fetchMaid();
+    });
+
+    // const maid = maids.find( (maid) => {
+    //     return (
+    //         maid._id === match.params.maidid
+    //     )
+    // } )
 
     return (
         <Container className="main-container">

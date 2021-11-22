@@ -1,11 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import axios from 'axios';
 
 import Maid from '../components/Maid';
 import './MaidScreen.css';
-import maids from '../maids';
+// import maids from '../maids';
 
 const MaidScreen = () => {
+
+    const [maids, setMaids] = useState([]);
+    
+    useEffect( () => {
+        const fetchMaids = async () => {
+            const { data } = await axios.get('/api/maids');
+
+            setMaids(data);
+        }
+
+        fetchMaids();
+    }, [])
+
     return (
         <Container>
             <Row>
