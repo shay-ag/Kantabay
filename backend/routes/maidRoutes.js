@@ -21,7 +21,9 @@ router.get('/:maidid', asyncHandler ( async (req, res) => {
     if(maid){
         res.json(maid);
     } else {
-        res.status(404).json({ message: 'Maid Not Found' });
+        res.status(404);
+        throw new Error('Maid Not Found');
+        // json({ message: 'Maid Not Found' });
     }
 
     // const maid = maids.find( (maid) => {

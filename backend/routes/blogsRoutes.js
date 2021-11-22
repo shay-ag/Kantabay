@@ -21,7 +21,9 @@ router.get('/:blogid', asyncHandler( async (req, res) => {
     if(blog){
         res.json(blog);
     } else {
-        res.status(404).json({ message: 'Blog Not Found' });
+        res.status(404);
+        throw new Error('Blog Not Found');
+        // json({ message: 'Blog Not Found' });
     }
 
     // const blog = blogs.find( (blog) => {

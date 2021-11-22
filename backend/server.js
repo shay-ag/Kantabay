@@ -7,6 +7,7 @@ import connectDB from './config/db.js';
 // import maids from './data/maids.js';
 // import blogs from './data/blogs.js';
 
+import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 import maidRoutes from './routes/maidRoutes.js';
 import blogRoutes from './routes/blogsRoutes.js';
 
@@ -19,8 +20,10 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/maids', maidRoutes);
-
 app.use('/api/blogs', blogRoutes);
+
+app.use(notFound);
+app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 
