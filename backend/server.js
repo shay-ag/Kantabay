@@ -4,8 +4,11 @@ import colors from 'colors';
 
 import connectDB from './config/db.js';
 
-import maids from './data/maids.js';
-import blogs from './data/blogs.js';
+// import maids from './data/maids.js';
+// import blogs from './data/blogs.js';
+
+import maidRoutes from './routes/maidRoutes.js';
+import blogRoutes from './routes/blogsRoutes.js';
 
 dotenv.config();
 connectDB();
@@ -15,31 +18,9 @@ app.get('/', (req, res) => {
     res.send('API is running...');
 });
 
-app.get('/api/maids', (req, res) => {
-    res.json(maids);
-});
+app.use('/api/maids', maidRoutes);
 
-app.get('/api/maids/:maidid', (req, res) => {
-
-    const maid = maids.find( (maid) => {
-        return maid._id === req.params.maidid;
-    });
-
-    res.json(maid);
-});
-
-app.get('/api/blogs/:blogid', (req, res) => {
-
-    const blog = blogs.find( (blog) => {
-        return blog._id === req.params.blogid;
-    });
-
-    res.json(blog);
-});
-
-app.get('/api/blogs', (req, res) => {
-    res.json(blogs);
-});
+app.use('/api/blogs', blogRoutes);
 
 const PORT = process.env.PORT || 5000;
 
