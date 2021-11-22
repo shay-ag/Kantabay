@@ -1,6 +1,5 @@
 const maids = [
     {
-        _id: '1',
         name: 'Manju Shrivastava',
         image: '/images/maids/maid1.webp',
         description: 'Maid-Bai, Babysitter-Nanny, Patient-Elder Care',
@@ -14,7 +13,6 @@ const maids = [
         available: true
     },
     {
-        _id: '2',
         name: 'Samdeep Yadav',
         image: '/images/maids/maid2.webp',
         description: 'Maid, Cooker, Driver, Patient-Elder Care',
@@ -28,7 +26,6 @@ const maids = [
         available: true
     },
     {
-        _id: '3',
         name: 'Deepa Gupta',
         image: '/images/maids/maid3.jpg',
         description: 'Maid-Bai, Babysitter, Patient-Elder Care',
@@ -42,7 +39,6 @@ const maids = [
         available: true
     },
     {
-        _id: '4',
         name: 'Anjolika Pandeya',
         image: '/images/maids/maid4.webp',
         description: 'Maid-Bai, Cooker, Laundry, Patient-Elder Care',
@@ -56,7 +52,6 @@ const maids = [
         available: true
     },
     {
-        _id: '5',
         name: 'Kamlesh Naik',
         image: '/images/maids/maid5.webp',
         description: 'Maid, Driver, Cooker, Patient-Elder Care',
@@ -70,7 +65,6 @@ const maids = [
         available: true
     },
     {
-        _id: '6',
         name: 'Priyanka Naik',
         image: '/images/maids/maid6.jpg',
         description: 'Maid-Bai, Cooker, Babysitter-Nanny, Patient-Elder Care',
@@ -84,7 +78,6 @@ const maids = [
         available: false
     },
     {
-        _id: '7',
         name: 'Palak Shukla',
         image: '/images/maids/maid7.webp',
         description: 'Maid-Bai, Cooker, Babysitter-Nanny, Patient-Elder Care',
@@ -98,7 +91,6 @@ const maids = [
         available: true
     },
     {
-        _id: '8',
         name: 'Lata Devi',
         image: '/images/maids/maid8.jpg',
         description: 'Maid-Bai, Cooker, Babysitter-Nanny, Patient-Elder Care',
@@ -112,7 +104,6 @@ const maids = [
         available: true
     },
     {
-        _id: '9',
         name: 'Prakash Shukla',
         image: '/images/maids/maid9.jpg',
         description: 'Maid, Driver, Babysitter-Nanny, Patient-Elder Care',
@@ -126,7 +117,6 @@ const maids = [
         available: false
     },
     {
-        _id: '10',
         name: 'Charan Singh',
         image: '/images/maids/maid10.jpeg',
         description: 'Driver, Cooker, Patient-Elder Care',
