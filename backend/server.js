@@ -1,8 +1,10 @@
 import express from 'express';
+import dotenv from 'dotenv';
 import maids from './data/maids.js';
 import blogs from './data/blogs.js';
 
 const app = express();
+dotenv.config();
 
 app.get('/', (req, res) => {
     res.send('API is running...');
