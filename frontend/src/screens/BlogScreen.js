@@ -1,11 +1,25 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap'
+import axios from 'axios';
 
 import Blog from '../components/Blog';
 import './BlogScreen.css';
-import blogs from '../blogs';
+// import blogs from '../blogs';
 
 const BlogScreen = () => {
+
+    const [blogs, setBlogs] = useState([]);
+
+    useEffect( () => {
+        const fetchBlogs = async () => {
+            const { data } = await axios.get('/api/blogs');
+
+            setBlogs(data);
+        }
+
+        fetchBlogs();
+    });
+
     return (
         <Container className="main-container">
             <Row>

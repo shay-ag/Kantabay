@@ -1,15 +1,27 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 
 import './BlogInfoScreen.css';
-import blogs from '../blogs';
+import axios from 'axios';
+// import blogs from '../blogs';
 
 const BlogInfoScreen = ( { match } ) => {
 
-    const blog = blogs.find( (blog) => {
-        return blog._id === match.params.blogid
-    } )
+    const [blog, setBlog] = useState({});
+
+    useEffect( () => {
+        const fetchBlog = async() => {
+            const { data } = await axios(`/api/blogs/${match.params.blogid}`);
+
+            setBlog(data);
+        }
+        fetchBlog();
+    })
+
+    // const blog = blogs.find( (blog) => {
+    //     return blog._id === match.params.blogid
+    // } )
 
     return <Container className="main-container">
         <Row>
