@@ -1,4 +1,3 @@
-// This is for Package code
 const client = require("../configs/db");
 
 exports.addNote = (req, res) => {
@@ -19,9 +18,6 @@ exports.addNote = (req, res) => {
       });
     });
 };
-
-
-
 
 
 
@@ -49,8 +45,6 @@ exports.getAllNotes = (req, res) => {
       });
     });
 };
-
-
 
 
 
