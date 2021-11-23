@@ -24,7 +24,7 @@ const getMaidDetails = asyncHandler ( async (req, res) => {
     // const maid = maids.find( (maid) => {
     //     return maid._id === req.params.maidid;
     // });
-
+    //
     // res.json(maid);
 });
 
