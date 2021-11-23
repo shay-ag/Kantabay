@@ -7,7 +7,7 @@ import {
     MAID_DETAILS_REQUEST,
     MAID_DETAILS_SUCCESS,
     MAID_DETAILS_FAIL
- } from '../constants/maidConstants';
+ } from '../../constants/maidConstants';
 
  export const listMaids = () => async(dispatch) => {
     try {
