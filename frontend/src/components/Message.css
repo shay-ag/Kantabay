@@ -1,0 +1,14 @@
+.error-div{
+    margin-top: -2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.562);
+    min-height: 10vh;
+}
+
+.error{
+    border: 2px solid red;
+    background-color: black;
+    color: red;
+    margin: 3rem;
+    display: inline-block;
+}

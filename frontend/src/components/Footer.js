@@ -22,10 +22,10 @@ const Footer = () => {
                                 <i className="fab fa-github social-media-icon"></i>
                             </Link>
                             <Link to={{ pathname: "https://www.linkedin.com/in/shashwat-agrawal-b6984b192/"}} target="_blank">
-                                <i class="fab fa-linkedin social-media-icon"></i>
+                                <i className="fab fa-linkedin social-media-icon"></i>
                             </Link>
                             <Link to={{ pathname: "https://www.instagram.com/shay_ag_/"}} target="_blank">
-                                <i class="fab fa-instagram social-media-icon"></i>
+                                <i className="fab fa-instagram social-media-icon"></i>
                             </Link>
                         </div>
                     </Row>
@@ -41,8 +41,8 @@ const Footer = () => {
                     </Row>
                     <Row>
                     <div className="footer">
-                    <Link to="/">
-                        <i className="fab fa-github social-media-icon"></i>
+                    <Link to={{ pathname: "https://github.com/shay-ag/kantabay" }} target="_blank">
+                                <i className="fab fa-github social-media-icon"></i>
                     </Link>
                     <Link to="/">
                         <i className="fab fa-facebook social-media-icon"></i>

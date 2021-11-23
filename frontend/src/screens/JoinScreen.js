@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import './JoinScreen.css';
 
@@ -103,7 +104,9 @@ const JoinScreen = () => {
                 </Row>
                 <Row>
                     <Col className="end-btn">
+                    <Link to='/message'>
                         <Button variant="outline-light" className="contact-end-btn letter-spacing">Register as Maid</Button>  
+                    </Link>
                     </Col>
                 </Row>
             </Form>

@@ -1,0 +1,8 @@
+.loader{
+    color: red;
+    width: '100px';
+    height: '100px'; 
+    margin: auto; 
+    margin-top: 3rem;
+    display: block;
+}

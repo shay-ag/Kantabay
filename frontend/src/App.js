@@ -17,6 +17,10 @@ import BlogScreen from './screens/BlogScreen';
 import MaidScreen from './screens/MaidScreen';
 import MaidInfoScreen from './screens/MaidInfoScreen';
 import BlogInfoScreen from './screens/BlogInfoScreen';
+import ShippingScreen from './screens/ShippingScreen';
+import BookingScreen from './screens/BookingScreen';
+import MessageScreen from './screens/MessageScreen';
+import SubmitBlogScreen from './screens/SubmitBlogScreen';
 
 const App = () => {
   return (
@@ -29,12 +33,16 @@ const App = () => {
           <Route path='/reviews' component={ReviewScreen} exact />
           <Route path='/contact' component={ContactScreen} exact />
           <Route path='/joinus' component={JoinScreen} exact />
-          <Route path='/signin' component={LoginScreen} exact />
+          <Route path='/login' component={LoginScreen} exact />
           <Route path='/register' component={RegisterScreen} />
           <Route path='/blogs' component={BlogScreen} exact />
           <Route path='/maids' component={MaidScreen} exact />
           <Route path='/maids/:maidid' component={MaidInfoScreen} />
           <Route path='/blogs/:blogid' component={BlogInfoScreen} />
+          <Route path='/shipping' component={ShippingScreen} />
+          <Route path='/booking' component={BookingScreen} />
+          <Route path='/message' component={MessageScreen} />
+          <Route path='/submitblog' component={SubmitBlogScreen} />
         </Container>
       </main>
       <Footer />

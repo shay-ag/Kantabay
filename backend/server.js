@@ -10,10 +10,13 @@ import connectDB from './config/db.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 import maidRoutes from './routes/maidRoutes.js';
 import blogRoutes from './routes/blogsRoutes.js';
+import userRoutes from './routes/userRoutes.js';
 
 dotenv.config();
 connectDB();
 const app = express();
+
+app.use(express.json());
 
 app.get('/', (req, res) => {
     res.send('API is running...');
@@ -21,6 +24,7 @@ app.get('/', (req, res) => {
 
 app.use('/api/maids', maidRoutes);
 app.use('/api/blogs', blogRoutes);
+app.use('/api/users', userRoutes);
 
 app.use(notFound);
 app.use(errorHandler);

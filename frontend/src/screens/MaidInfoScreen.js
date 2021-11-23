@@ -7,7 +7,7 @@ import Rating from '../components/Rating';
 // import maids from '../maids';
 import './MaidInfoScreen.css';
 
-const MaidInfoScreen = ( {match} ) => {
+const MaidInfoScreen = ( {match, history} ) => {
 
     const [ maid, setMaid ] = useState({});
 
@@ -25,6 +25,10 @@ const MaidInfoScreen = ( {match} ) => {
     //         maid._id === match.params.maidid
     //     )
     // } )
+
+    const bookingHandler = () => {
+        history.push('/login?redirect=shipping');
+    }
 
     return (
         <Container className="main-container">
@@ -53,9 +57,9 @@ const MaidInfoScreen = ( {match} ) => {
                     <div className="maid-info-field">Available:</div> <div className="maid-info">{maid.available ? 'Yes' : 'No' }</div><br />
                     <div className="maid-info-field">Rating:</div><div className="maid-info"><Rating value={maid.rating} /></div><br />
                     <br />
-                    <Button variant="outline-light" className="home-end-btn book-btn letter-spacing">Book {maid.name}</Button>
+                    <Button type="button" variant="outline-light" className="home-end-btn book-btn letter-spacing" onClick={bookingHandler}>Book {maid.name}</Button>
                     <Link to='/maids'>
-                    <Button variant="outline-light" className="home-end-btn one letter-spacing">Go Back</Button>
+                    <Button  variant="outline-light" className="home-end-btn one letter-spacing" >Go Back</Button>
                     </Link>
                 </Col>
             </Row>

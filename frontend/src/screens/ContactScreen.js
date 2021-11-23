@@ -1,9 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Button, Container, Row, Col, Form } from 'react-bootstrap';
 
 import './ContactScreen.css';
 
-const ContactScreen = () => {
+const ContactScreen = ({history}) => {
+
+    const [name, setName ] = useState('');
+    const [email, setEmail ] = useState('');
+    const [subject, setSubject ] = useState('');
+    const [message, setMessage ] = useState('');
+    
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        history.push('/message');
+    }
+
     return (
         <div>
             <Container className="main-container">
@@ -51,43 +63,64 @@ const ContactScreen = () => {
                             </Col>
                             <Col>
                                 <Row className="form-class outer-div">
-                                    <Form>
+                                    <Form onSubmit={handleSubmit}>
                                     <Row>
                                     <Col lg={6}>
                                         <Form.Group>
                                         <Form.Label className="form-label">Your Name</Form.Label>
-                                        <Form.Control type="text" placeholder="Enter Your Name Here" className="form-content" required/>
+                                        <Form.Control 
+                                        type="text" 
+                                        placeholder="Enter Your Name Here" 
+                                        className="form-content"
+                                        value={name}
+                                        onChange={ (e) => setName(e.target.value)} 
+                                        required/>
                                         </Form.Group>
                                     </Col>
                                     <Col lg={6}>
                                         <Form.Group>
                                         <Form.Label className="form-label">Your Email</Form.Label>
-                                        <Form.Control type="email" placeholder="name@example.com" className="form-content" required/>
+                                        <Form.Control 
+                                        type="email" 
+                                        placeholder="name@example.com" 
+                                        className="form-content" 
+                                        value={email}
+                                        onChange={ (e) => setEmail(e.target.value)} required/>
                                         </Form.Group>
                                     </Col>
                                     </Row>
                                     <Col lg={12}>
                                         <Form.Group>
                                         <Form.Label className="form-label">Subject</Form.Label>
-                                        <Form.Control type="text" placeholder="Enter Subject" className="form-content" required/>
+                                        <Form.Control 
+                                        type="text" 
+                                        placeholder="Enter Subject" 
+                                        className="form-content" 
+                                        value={subject}
+                                        onChange={ (e) => setSubject(e.target.value)} 
+                                        required/>
                                         </Form.Group>
                                     </Col>
                                     <Col lg={12}>
                                         <Form.Group>
                                         <Form.Label className="form-label">Message</Form.Label>
-                                        <Form.Control as="textarea" rows={2} placeholder="Enter Your Message" className="form-content" required/>
+                                        <Form.Control as="textarea" rows={2} 
+                                        placeholder="Enter Your Message" 
+                                        className="form-content" 
+                                        value={message}
+                                        onChange={ (e) => setMessage(e.target.value)} 
+                                        required/>
                                         </Form.Group>
                                     </Col>
                                     <Row>
                                     <Col className="end-btn">
-                                    <Button variant="outline-light" className="contact-end-btn letter-spacing">Send Message</Button>                                    
+                                    <Button type="submit" variant="outline-light" className="contact-end-btn letter-spacing">Send Message</Button>                                    
                                     </Col>
                                     </Row>
                                     </Form>
                                 </Row>
                             </Col>
-                        </Row>
-                        
+                        </Row>    
                 </Row>
             </Container>
         </div>

@@ -1,0 +1,32 @@
+.book-div{
+    border: 1px solid greenyellow;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    margin: auto;
+}
+
+.booked-icon{
+    border-radius: 100%;
+    border: 1px solid green;
+    color: greenyellow;
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.booked-icon:hover{
+    color: green;
+}
+
+.congrats{
+    color: black;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.done{
+    color: black;
+    font-weight: 900;
+    display: inline-block;
+}

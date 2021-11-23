@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import './ReviewScreen.css';
 
@@ -36,7 +37,9 @@ const ReviewScreen = () => {
                 </Col>
                 <Row>
                     <Col className="end-btn">
+                    <Link to='/contact'>
                     <Button variant="outline-light" className="review-end-btn letter-spacing">Wanna Add A Review ?<br />Click Me</Button>
+                    </Link>
                     </Col>
                 </Row>
             </Row>
