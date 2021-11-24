@@ -4,8 +4,6 @@ import colors from 'colors';
 
 import connectDB from './config/db.js';
 
-// import maids from './data/maids.js';
-// import blogs from './data/blogs.js';
 
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 import maidRoutes from './routes/maidRoutes.js';
