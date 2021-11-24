@@ -18,14 +18,10 @@ const getBlogDetails = asyncHandler( async (req, res) => {
     } else {
         res.status(404);
         throw new Error('Blog Not Found');
-        // json({ message: 'Blog Not Found' });
+
     }
 
-    // const blog = blogs.find( (blog) => {
-    //     return blog._id === req.params.blogid;
-    // });
 
-    // res.json(blog);
 });
 
 export { getBlogs, getBlogDetails};
