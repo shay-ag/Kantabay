@@ -8,7 +8,7 @@ const maids = [
         number: 8794456123,
         gender: 'Female',
         experience: 'More than 5 Years',
-        expected_salary: '7k/month',
+        expected_salary: '8k/month',
         rating: 3.5,
         available: true
     },
@@ -18,7 +18,7 @@ const maids = [
         description: 'Maid, Cooker, Driver, Patient-Elder Care',
         address: 'Gomti Chauraha, Prasad Nagar, Gwalior',
         pincode: 373005,
-        number: 4567856123,
+        number: 4567856158,
         gender: 'Male',
         experience: 'More than 5 Years',
         expected_salary: '8k/month',
@@ -26,7 +26,7 @@ const maids = [
         available: true
     },
     {
-        name: 'Deepa Gupta',
+        name: 'Dipika Gupta',
         image: '/images/maids/maid3.jpg',
         description: 'Maid-Bai, Babysitter, Patient-Elder Care',
         address: 'Gomti Chauraha, Prasad Nagar, Gwalior',
@@ -52,7 +52,7 @@ const maids = [
         available: true
     },
     {
-        name: 'Kamlesh Naik',
+        name: 'Kamlesh Nitin',
         image: '/images/maids/maid5.webp',
         description: 'Maid, Driver, Cooker, Patient-Elder Care',
         address: '40, Nanikatta, Gwalior',
