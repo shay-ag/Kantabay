@@ -1,6 +1,6 @@
 import asyncHandler from  'express-async-handler';
 
-import Maid from '../models/MaidModel.js';
+import Maid from '../models/MaidModel-backup.js';
 
 const getMaids = asyncHandler (async (req, res) => {
 
